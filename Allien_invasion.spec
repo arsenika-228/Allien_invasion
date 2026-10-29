@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['Allien_Invasion.py'],
+    ['Allien_invasion.py'],
     pathex=[],
     binaries=[],
-    datas=[('images', 'images')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Allien_Invasion',
+    name='Allien_invasion',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

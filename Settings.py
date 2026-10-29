@@ -11,7 +11,7 @@ class settings:
         self.screen_height = 800
         self.bg_color = (10, 10, 20)
 
-        # --- НОВОЕ: Список цветов космоса для разных уровней ---
+        # --- Список цветов космоса для разных уровней ---
         self.level_bg_colors = [
             (10, 10, 20),  # Уровень 1: Темно-синий
             (20, 10, 10),  # Уровень 2: Темно-красный
@@ -24,8 +24,8 @@ class settings:
         self.score_scale = 1.5
 
         # Параметры снаряда
-        self.bullet_width = 100
-        self.bullet_height = 180
+        self.bullet_width = 3
+        self.bullet_height = 15
         self.bullet_color = (0, 255, 128)
         self.bullets_allowed = 3
 
